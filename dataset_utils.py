@@ -69,7 +69,6 @@ if __name__ == "__main__":
     # for data in dataloader:
     #     print(data['input'])
 
-
     # # ERROR
     # dataloader = torch.utils.data.DataLoader(var_dataset, batch_size=2)
     # for data in dataloader:
