@@ -48,7 +48,7 @@ if __name__ == "__main__":
    
     
     """RANDOM SAMPLER""" 
-    random_sampler = RandomSampler(dataset)
+    random_sampler = RandomSampler(dataset) 
     
     dataloader = torch.utils.data.DataLoader(dataset, batch_size=4, sampler=random_sampler)
     dataloader2 =torch.utils.data.DataLoader(dataset, batch_size=4, shuffle=True)
