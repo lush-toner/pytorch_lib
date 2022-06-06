@@ -1,1 +1,1 @@
-# personal pytorch library
+Pytorch library for personal usage
